@@ -168,7 +168,7 @@ function FormResidues() {
           </button>
           <button
             className="button buttonExport"
-            onClick={(e) => exportCsv(e, data)}
+            onClick={(e) => exportCsv(e, data, cellsSumOnWay, cellsSumTotal)}
           >
             <div className="buttonExport__icon" />
             <p className="buttonExport__label">Экспорт</p>

@@ -1,4 +1,9 @@
-const exportCsv = (e: any, data: any) => {
+const exportCsv = (
+  e: any,
+  data: any,
+  cellsSumOnWay: number,
+  cellsSumTotal: number
+) => {
   e.preventDefault();
 
   let convertData = data.map((item: object, index: number) => {
@@ -12,6 +17,13 @@ const exportCsv = (e: any, data: any) => {
         "Баркод;Предмет;Артикул поставщика;Размер;Доступно к заказу;Товары в пути;Итого кол-во товара\r\n";
       arrayToString = dataHeader + arrayToString;
     }
+
+    if (index == data.length - 1) {
+      let dataFooter: string;
+      dataFooter = `\r\nИтого:;;;;;${cellsSumOnWay};${cellsSumTotal}\r\n`;
+      arrayToString = arrayToString + dataFooter;
+    }
+
     return arrayToString;
   });
 
