@@ -1,0 +1,15 @@
+@mixin fontFaceConfig($fontFamily, $fontWeight, $fontStyle) {
+  font-family: $fontFamily;
+  src: url("../public/fonts/#{$fontFamily}.woff2") format("woff2"),
+    url("../public/fonts/#{$fontFamily}.woff") format("woff");
+  font-weight: $fontWeight;
+  font-style: $fontStyle;
+}
+
+@font-face {
+  @include fontFaceConfig("Roboto-Regular", 400, normal);
+}
+
+@font-face {
+  @include fontFaceConfig("Roboto-Light", 300, normal);
+}

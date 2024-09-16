@@ -1,0 +1,22 @@
+@import "./fonts.scss";
+@import "./vars.scss";
+body {
+  background-color: #eff1f2;
+  font-family: "Roboto-Light";
+  padding-top: 1rem;
+}
+
+::-webkit-scrollbar {
+  height: 0.6875rem;
+  width: 0.6875rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eff1f2;
+  border-radius: 5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: $lightBlueColor;
+}

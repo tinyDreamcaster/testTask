@@ -1,0 +1,85 @@
+{
+    "data": [
+        {
+            "barcode": "983472198",
+            "item": "одежда",
+            "article": "брюки",
+            "size": "51",
+            "available": "82",
+            "onWay": "26",
+            "total": "62"
+        },
+        {
+            "barcode": "651943515",
+            "item": "одежда",
+            "article": "брюки",
+            "size": "47",
+            "available": "58",
+            "onWay": "54",
+            "total": "36"
+        },
+        {
+            "barcode": "943651515",
+            "item": "одежда",
+            "article": "брюки",
+            "size": "50",
+            "available": "99",
+            "onWay": "43",
+            "total": "72"
+        },
+        {
+            "barcode": "945153651",
+            "item": "одежда",
+            "article": "брюки 1",
+            "size": "51",
+            "available": "4",
+            "onWay": "26",
+            "total": "62"
+        },
+        {
+            "barcode": "720385131",
+            "item": "одежда",
+            "article": "брюки 1",
+            "size": "53",
+            "available": "15",
+            "onWay": "51",
+            "total": "89"
+        },
+        {
+            "barcode": "851372031",
+            "item": "одежда",
+            "article": "брюки 1",
+            "size": "55",
+            "available": "50",
+            "onWay": "96",
+            "total": "98"
+        },
+        {
+            "barcode": "820315137",
+            "item": "одежда",
+            "article": "рубашка",
+            "size": "53",
+            "available": "76",
+            "onWay": "85",
+            "total": "47"
+        },
+        {
+            "barcode": "804923841",
+            "item": "одежда",
+            "article": "рубашка",
+            "size": "55",
+            "available": "10",
+            "onWay": "73",
+            "total": "72"
+        },
+        {
+            "barcode": "238418049",
+            "item": "одежда",
+            "article": "рубашка",
+            "size": "58",
+            "available": "20",
+            "onWay": "63",
+            "total": "83"
+        }
+    ]
+}
